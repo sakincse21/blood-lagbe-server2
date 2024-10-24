@@ -1,4 +1,1 @@
-{
-    "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
-  }
-  
+{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" }] }
